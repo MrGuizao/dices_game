@@ -1,0 +1,43 @@
+.center-block {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.center-block div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin: 8px 0;
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+button {
+    width: 120px;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 2px 0;
+    background-color: #d2691e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b55b1b;
+}
